@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Lato, "Helvetica Neue", sans-serif; }
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.mat-toolbar-single-row {
+    height: 60px;
+    font-size: 16px;
+    font-family: Lato, "Helvetica Neue", sans-serif;
+}
+
+.mat-button {
+    height: 60px;
+    font-size: 15px;
+    font-family: Lato, "Helvetica Neue", sans-serif;
+}
+
+.form-group {
+    font-family: Lato, "Helvetica Neue", sans-serif;
+}
+
+.form-control {
+    font-family: Lato, "Helvetica Neue", sans-serif;
+}
+
+.mat-menu-item {
+    height: 50px;
+    font-size: 14px;
+    font-family: Lato, "Helvetica Neue", sans-serif;
+}
+
+.nav-link { 
+    color: #ffffff;
+}

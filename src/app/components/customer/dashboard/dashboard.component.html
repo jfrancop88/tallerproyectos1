@@ -1,0 +1,20 @@
+<table mat-table class="mat-elevation-z8">
+    <thead>
+        <tr>
+            <th mat-header-cell>ID</th>
+            <th mat-header-cell>Nombre</th>
+            <th mat-header-cell>Cantidad</th>
+            <th mat-header-cell>Detalle</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let products of data">
+            <td>{{products.id}}</td>
+            <td>{{products.nombre}}</td>
+            <td>{{products.cantidad}}</td>
+            <td><a [routerLink]="['/customer/detail']">Ver detalle</a></td>
+        </tr>
+    </tbody>
+</table>
